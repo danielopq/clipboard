@@ -7,11 +7,13 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	width: 1440px;
+	width: 100vw;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	align-content: center;
+	justify-content: center;
 	background: white url("../images/bg-header-desktop.png") no-repeat;
 	background-size: cover;
 }
@@ -103,6 +105,57 @@ input[type="button"]{
 	margin: auto 35px auto 35px;
 }
 
+footer{
+	width: inherit;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	align-items:flex-start;
+	justify-content: center;
+	background-color: #f5f6f8;
+}
+
+#footer-logo{
+	width: 340px;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+#footer-logo > img{width: 60px;}
+
+#footer-links{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-template-rows: 40px 40px;
+	grid-template-areas: "faqs privacy install"
+						 "contact press .";
+	margin-top: 30px;
+}
+
+#footer-links > div{
+	font-size: 18px;
+	color: hsl(210, 10%, 33%);
+	font-weight: 400;
+}
+
+#footer-social{
+	width: 500px;
+	align-self: center;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+}
+
+#footer-social img{
+	display: block;
+	margin: auto 10px auto 10px;
+}
+
+#link-faqs{grid-area: faqs;}
+#link-contact{grid-area:contact;}
+#link-privacy{grid-area:privacy;}
+#link-press{grid-area:press;}
+#link-install{grid-area:install;}
 .download-buttons{
 	display: block;
 	margin-top: 50px;
