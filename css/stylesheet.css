@@ -7,7 +7,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	width: 100vw;
+	width: 1440px;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -17,7 +17,6 @@ body{
 }
 
 body > div {
-	width: 700px;
 	text-align: center;
 }
 
@@ -60,6 +59,29 @@ input[type="button"]{
 	box-shadow: 0px 5px 25px -5px hsl(233, 100%, 69%);
 }
 
+#content-keep-track{
+	display:flex;
+	flex-direction: row;
+	height: 590px;
+	width: inherit;
+	margin-top: 80px;
+}
+
+#img-keep-track{
+	height: inherit;
+	width: 720px;
+	background: url("../images/image-computer.png") no-repeat;
+	background-size: 760px;
+	background-position: 100% 0%;
+	
+}
+
+#subsection-keep-feat {
+	margin-top: 70px;
+	margin-left: 110px;
+}
+#subsection-keep-feat > div {text-align: left;}
+
 .title{
 	font-weight: 600;
 	color:hsl(210, 10%, 33%);
@@ -72,7 +94,7 @@ input[type="button"]{
 }
 
 .main-section{
-	text-align: center;
+	width: 700px;
 }
 
 .main-section p[class = "title"]{
@@ -84,7 +106,7 @@ input[type="button"]{
 }
 
 .section{
-	text-align: center;
+	width: 700px;
 }
 
 .section p[class = "title"]{
@@ -95,3 +117,14 @@ input[type="button"]{
 	font-size: 18px;
 }
 
+.sub-section{
+	width: 340px;
+}
+
+.sub-section p[class = "title"]{
+	font-size: 22px;
+}
+
+.sub-section p[class = "comment"]{
+	font-size: 16px;
+}
