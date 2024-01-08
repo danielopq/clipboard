@@ -4,6 +4,12 @@
 
 *{font-family:'Bai Jamjuree'}
 
+a{ 
+  outline: none; 
+  border: 0; 
+  text-decoration: none;
+}
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -138,16 +144,28 @@ footer{
 	font-weight: 400;
 }
 
+#footer-links a{ 
+  color: hsl(210, 10%, 33%);
+}
+
+#footer-links a:hover{
+	color: hsl(171, 66%, 44%);
+}
+
+#footer-links a:visited{
+	color: hsl(210, 10%, 33%);
+}
+
 #footer-social{
 	width: 500px;
 	align-self: center;
 	display: flex;
 	flex-direction: row;
 	justify-content:center;
+	align-items: center;
 }
 
-#footer-social img{
-	display: block;
+#footer-social svg{
 	margin: auto 10px auto 10px;
 }
 
@@ -156,6 +174,7 @@ footer{
 #link-privacy{grid-area:privacy;}
 #link-press{grid-area:press;}
 #link-install{grid-area:install;}
+
 .download-buttons{
 	display: block;
 	margin-top: 50px;
@@ -168,10 +187,20 @@ footer{
 	box-shadow: 0px 5px 25px -5px hsl(171, 66%, 44%);
 }
 
+.bt-ios:hover{
+	background-color: hsla(171, 66%, 44%, 0.8);
+	border-bottom-color: hsla(171, 66%, 44%, 0.8);
+}
+
 .bt-mac{
 	background-color: hsl(233, 100%, 69%);
 	border-bottom-color: hsl(233, 100%, 69%);
 	box-shadow: 0px 5px 25px -5px hsl(233, 100%, 69%);
+}
+
+.bt-mac:hover{
+	background-color: hsla(233, 100%, 69%, 0.8);
+	border-bottom-color: hsla(233, 100%, 69%, 0.8);
 }
 
 .title{
@@ -223,4 +252,9 @@ footer{
 
 .sub-icon{
 	height: 70px;
+}
+
+.icon-media:hover{
+	cursor: pointer;
+	fill:hsl(171, 66%, 44%);
 }
