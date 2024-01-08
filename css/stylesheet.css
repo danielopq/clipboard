@@ -41,30 +41,13 @@ input[type="button"]{
 	margin-bottom: 70px;
 }
 
-#download-buttons{
-	display: block;
-	margin-top: 50px;
-	margin-bottom: 140px;
-}
-
-#bt-ios{
-	background-color: hsl(171, 66%, 44%);
-	border-bottom-color: hsl(171, 66%, 44%);
-	box-shadow: 0px 5px 25px -5px hsl(171, 66%, 44%);
-}
-
-#bt-mac{
-	background-color: hsl(233, 100%, 69%);
-	border-bottom-color: hsl(233, 100%, 69%);
-	box-shadow: 0px 5px 25px -5px hsl(233, 100%, 69%);
-}
-
 #content-keep-track{
 	display:flex;
 	flex-direction: row;
 	height: 590px;
 	width: inherit;
 	margin-top: 80px;
+	margin-bottom: 150px;
 }
 
 #img-keep-track{
@@ -76,11 +59,67 @@ input[type="button"]{
 	
 }
 
+#img-access{
+	height: 475px;
+	width: 820px;
+	display: block;
+	background: url("../images/image-devices.png") no-repeat;
+	background-size: 810px;
+	margin-top: 80px;
+	margin-bottom: 150px;
+}
+
 #subsection-keep-feat {
 	margin-top: 70px;
 	margin-left: 110px;
 }
-#subsection-keep-feat > div {text-align: left;}
+#subsection-keep-feat > div {
+	text-align: left;
+	margin-bottom: 80px;
+}
+
+#subsection-supercharge{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	margin-bottom: 140px;
+}
+
+#subsection-supercharge > div{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#companies{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	margin-bottom: 150px;
+}
+
+#companies > img{
+	display: block;
+	margin: auto 35px auto 35px;
+}
+
+.download-buttons{
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 140px;
+}
+
+.bt-ios{
+	background-color: hsl(171, 66%, 44%);
+	border-bottom-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 5px 25px -5px hsl(171, 66%, 44%);
+}
+
+.bt-mac{
+	background-color: hsl(233, 100%, 69%);
+	border-bottom-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 5px 25px -5px hsl(233, 100%, 69%);
+}
 
 .title{
 	font-weight: 600;
@@ -118,7 +157,7 @@ input[type="button"]{
 }
 
 .sub-section{
-	width: 340px;
+	width: 330px;
 }
 
 .sub-section p[class = "title"]{
@@ -127,4 +166,8 @@ input[type="button"]{
 
 .sub-section p[class = "comment"]{
 	font-size: 16px;
+}
+
+.sub-icon{
+	height: 70px;
 }
