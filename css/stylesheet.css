@@ -1,3 +1,97 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 /* CSS Document */
+
+*{font-family:'Bai Jamjuree'}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white url("../images/bg-header-desktop.png") no-repeat;
+	background-size: cover;
+}
+
+body > div {
+	width: 700px;
+	text-align: center;
+}
+
+input[type="button"]{
+	width: 230px;
+	height: 60px;
+	border-radius: 30px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 3px;
+	font-size: 20px;
+	color:white;
+	cursor: pointer;
+}
+
+#logo{
+	display: block;
+	margin-top: 126px;
+	margin-bottom: 70px;
+}
+
+#download-buttons{
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 140px;
+}
+
+#bt-ios{
+	background-color: hsl(171, 66%, 44%);
+	border-bottom-color: hsl(171, 66%, 44%);
+	box-shadow: 0px 5px 25px -5px hsl(171, 66%, 44%);
+}
+
+#bt-mac{
+	background-color: hsl(233, 100%, 69%);
+	border-bottom-color: hsl(233, 100%, 69%);
+	box-shadow: 0px 5px 25px -5px hsl(233, 100%, 69%);
+}
+
+.title{
+	font-weight: 600;
+	color:hsl(210, 10%, 33%);
+	margin: 0px;
+}
+
+.comment{
+	font-weight: 400;
+	color:hsl(201, 11%, 66%);
+}
+
+.main-section{
+	text-align: center;
+}
+
+.main-section p[class = "title"]{
+	font-size: 44px;
+}
+
+.main-section p[class = "comment"]{
+	font-size: 20px;
+}
+
+.section{
+	text-align: center;
+}
+
+.section p[class = "title"]{
+	font-size: 35px;
+}
+
+.section p[class = "comment"]{
+	font-size: 18px;
+}
 
