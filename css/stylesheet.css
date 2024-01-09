@@ -67,16 +67,6 @@ input[type="button"]{
 	
 }
 
-#img-access{
-	height: 475px;
-	width: 820px;
-	display: block;
-	background: url("../images/image-devices.png") no-repeat;
-	background-size: 810px;
-	margin-top: 80px;
-	margin-bottom: 150px;
-}
-
 #subsection-keep-feat {
 	margin-top: 70px;
 	margin-left: 110px;
@@ -96,6 +86,16 @@ input[type="button"]{
 #subsection-supercharge > div{
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+#img-access{
+	height: 475px;
+	width: 820px;
+	display: block;
+	background: url("../images/image-devices.png") no-repeat;
+	background-size: 810px;
+	margin-top: 80px;
+	margin-bottom: 150px;
 }
 
 #companies{
@@ -255,6 +255,116 @@ footer{
 }
 
 .icon-media:hover{
-	cursor: pointer;
 	fill:hsl(171, 66%, 44%);
 }
+
+@media screen and (max-width: 480px) {
+body{
+	background-image:url("../images/bg-header-mobile.png");
+	background-position: top;
+	background-size: contain;
+}
+
+input[type="button"]{
+	width: 310px;
+	height: 50px;
+	margin: 15px auto 15px auto;
+	font-size: 20px;
+}
+
+#content-keep-track{
+	width: 310px;
+	height: 800px;
+	flex-direction: column;
+	align-items: center;
+}
+
+#img-keep-track{
+	width: 310px;
+	background-size: 310px;
+	background-position:center;
+	
+}
+	
+#subsection-keep-feat {
+	margin-left: 0px;
+}
+	
+#subsection-keep-feat > div {
+	text-align:center;
+}
+
+#img-access{
+	height: 240px;
+	width: 310px;
+	display: block;
+	background-size: 310px;
+	margin-bottom: 80px;
+}
+
+#subsection-supercharge{
+	flex-direction: column;
+}
+
+#subsection-supercharge > div{
+	margin: 20px auto 20px auto;
+}
+
+#companies{
+	flex-direction: column;
+	margin-bottom: 150px;
+}
+
+#companies > img{
+	margin: 30px auto 30px auto;
+}
+
+footer{
+	height: 500px;
+	flex-direction:column;
+	align-items:center;
+	justify-content:flex-start;
+}
+
+#footer-logo{
+	margin-top: 50px;
+}
+#footer-logo > img{width: 60px;}
+
+#footer-links{
+	grid-template-columns: 200px;
+	grid-template-rows: 40px 40px  40px 40px 40px;
+	grid-template-areas: "faqs""privacy""install""contact""press";
+	text-align: center;
+	margin: 50px auto 50px auto;
+}
+
+#footer-social svg{
+	margin: auto 20px auto 20px;
+}
+
+.main-section{
+	width: 310px;
+}
+	
+.main-section p[class = "title"]{
+	font-size: 30px;
+}
+
+.main-section p[class = "comment"]{
+	font-size: 16px;
+}
+	
+.section{
+	width: 310px;
+}
+
+.section p[class = "title"]{
+	font-size: 30px;
+}
+
+.section p[class = "comment"]{
+	font-size: 16px;
+}
+}
+
