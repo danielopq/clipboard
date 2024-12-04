@@ -1,39 +1,83 @@
 footer {
-    width: 1440px;
-    height: 150px;
-    margin-top: 150px;
-    padding: 39px 0px 0px 355px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    background: #f5f6f8 url('../assets/images/logo.svg') 165px 44px/55px no-repeat;
-  }
+   width: 1440px;
+   height: 150px;
+   margin-top: 150px;
+   padding: 0px 0px 0px 355px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   background: #f5f6f8 url('../assets/images/logo.svg') 165px 44px/55px no-repeat;
+}
 
- #footer-links{
-    width: 635px;
-    height: 72px;
-    display: inline-flex;
-    justify-content: space-between;
-    border:solid 1px red;
- }
+#footer-links {
+   width: 635px;
+   height: 72px;
+   margin: 39px 165px 0px 0px;
+   display: inline-flex;
+   justify-content: space-between;
+}
 
- #footer-links > div{
-    width: 160px;
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
- }
+#footer-links>div {
+   width: 160px;
+   height: inherit;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
 
- .linkBt{
-    width: auto;
-    height: 30px;
-    padding: 0px;
-    border:none;
-    text-align: left;
-    font: 400 18px/30px 'BaiJamjuree-Regular';
-    color:#4C545C;
-    letter-spacing: 0.14px;
-    background-color: transparent;
-  }
+.linkBt {
+   width: auto;
+   height: 30px;
+   padding: 0px;
+   border: none;
+   text-align: left;
+   font: 400 18px/30px 'BaiJamjuree-Regular';
+   color: #4C545C;
+   letter-spacing: 0.14px;
+   background-color: transparent;
+   transition: color 0.3s ease;
+}
+
+@media(hover:hover) {
+   .linkBt:hover {
+      color: #26BBA4;
+   }
+}
+
+#footer-social{
+   width: 120px;
+   height: 24px;
+   margin-top: 63px;
+   display:inline-flex;
+   justify-content: space-between;
+}
+
+.socialMediaBt{
+   width: 24px;
+   height: 24px;
+   padding: 0px;
+   border: none;
+   background: transparent center/24px no-repeat;
+}
+
+#facebookBt{
+   background-image: url('../assets/images/icon-facebook.svg');
+}
+#twitterBt{
+   background-image: url('../assets/images/icon-twitter.svg');
+}
+#instagramBt{
+   background-image: url('../assets/images/icon-instagram.svg');
+}
+
+@media(hover:hover){
+   #facebookBt:hover{
+      background-image: url('../assets/images/icon-facebook-hover.svg');
+   }
+   #twitterBt:hover{
+      background-image: url('../assets/images/icon-twitter-hover.svg');
+   }
+   #instagramBt:hover{
+      background-image: url('../assets/images/icon-instagram-hover.svg');
+   }
+}
