@@ -1,0 +1,39 @@
+footer {
+    width: 1440px;
+    height: 150px;
+    margin-top: 150px;
+    padding: 39px 0px 0px 355px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background: #f5f6f8 url('../assets/images/logo.svg') 165px 44px/55px no-repeat;
+  }
+
+ #footer-links{
+    width: 635px;
+    height: 72px;
+    display: inline-flex;
+    justify-content: space-between;
+    border:solid 1px red;
+ }
+
+ #footer-links > div{
+    width: 160px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .linkBt{
+    width: auto;
+    height: 30px;
+    padding: 0px;
+    border:none;
+    text-align: left;
+    font: 400 18px/30px 'BaiJamjuree-Regular';
+    color:#4C545C;
+    letter-spacing: 0.14px;
+    background-color: transparent;
+  }
