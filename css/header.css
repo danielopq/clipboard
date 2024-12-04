@@ -1,0 +1,36 @@
+header{
+    width: 1440px;
+    height: 547px;
+    display: flex;
+    padding-top: 128px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: url('../assets/images/bg-header-desktop.png') top/1440px no-repeat;
+    text-align: center; 
+}
+
+#logo-header{
+    width: 125px;
+    height: 125px;
+    background: url('../assets/images/logo.svg') center/125px no-repeat;
+}
+
+header h1{
+    width: auto;
+    height: 58px;
+    margin-top: 56px;
+}
+
+header p{
+    width: 730px;
+    height: 60px;
+    margin: 16px 0px 48px;
+}
+
+header div{
+    width: 470px;
+    height: 56px;
+    display: inline-flex;
+    justify-content: space-between;
+}
