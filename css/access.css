@@ -1,0 +1,13 @@
+#access{
+    width: inherit; 
+    height: 709px;
+    margin-top: 150px;
+    background: url('../assets/images/image-devices.png') bottom/812px no-repeat;
+    text-align: center;
+}
+
+#access p{
+    width: 730px;
+    margin-top: 19px;
+}
+
