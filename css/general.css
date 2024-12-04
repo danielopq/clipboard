@@ -36,16 +36,40 @@ h3 {
   color: #4C545C;
 }
 
-
 h1 {
   font: 600 46px/58px 'BaiJamjuree-SemiBold';
   letter-spacing: -0.75px;
 }
 
+h2 {
+  font: 600 36px/45px 'BaiJamjuree-SemiBold';
+  letter-spacing: -0.59px;
+}
+
+h3 {
+  font: 600 24px/30px 'BaiJamjuree-SemiBold';
+  letter-spacing: -0.39px;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+  color: #9EABB2;
+}
+
 .textLarge {
   font: 400 20px/30px 'BaiJamjuree-Regular';
   letter-spacing: 0.15px;
-  color: #9EABB2;
+}
+
+.textMedium {
+  font: 400 18px/30px 'BaiJamjuree-Regular';
+  letter-spacing: 0.14px;
+}
+
+.textSmall {
+  font: 400 16px/30px 'BaiJamjuree-Regular';
+  letter-spacing: 0.12px;
 }
 
 
@@ -86,6 +110,42 @@ h1 {
     border-bottom-color: hsla(233, 100%, 69%, 0.8);
   }
 }
+
+main {
+  width: 1440px;
+  height: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section{
+  width: inherit;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 a {
