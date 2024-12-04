@@ -1,0 +1,52 @@
+#supercharge{
+    width: inherit;
+    height: auto;
+    margin-top: 161px;
+    text-align: center;
+}
+
+#supercharge >p{
+    width: 730px;
+    margin: 19px 0px 72px;
+}
+
+#supercharge-content{
+    width: 1110px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#supercharge-content > div{
+    width: 350px;
+    display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#supercharge-content h3{
+    margin-bottom: 16px;
+}
+
+#createBlacklist{
+    background: url('../assets/images/icon-blacklist.svg') top/44px no-repeat;
+}
+
+#plainTextSnippet{
+    background: url('../assets/images/icon-text.svg') top/36px no-repeat;
+}
+
+#sneakPreview{
+    background: url('../assets/images/icon-preview.svg') top/50px no-repeat;
+}
+
+#customers{
+    width: 1110px;
+    height: 72px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+

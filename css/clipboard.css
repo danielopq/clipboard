@@ -1,0 +1,15 @@
+#clipboard{
+    width: inherit;
+    margin-top: 150px;
+    text-align: center;
+}
+#clipboard p{
+    width: 730px;
+    margin: 19px 0px 48px;
+}
+
+#clipboard div{
+    width: 470px;
+    display: inline-flex;
+    justify-content: space-between;
+}

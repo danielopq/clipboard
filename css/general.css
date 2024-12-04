@@ -138,84 +138,6 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-a {
-  outline: none;
-  border: 0;
-  text-decoration: none;
-}
-
-#content-keep-track {
-  display: flex;
-  flex-direction: row;
-  height: 590px;
-  width: inherit;
-  margin-top: 80px;
-  margin-bottom: 150px;
-}
-
-#img-keep-track {
-  height: inherit;
-  width: 720px;
-  background: url("../images/image-computer.png") no-repeat;
-  background-size: 760px;
-  background-position: 100% 0%;
-}
-
-#subsection-keep-feat {
-  margin-top: 70px;
-  margin-left: 110px;
-}
-
-#subsection-keep-feat>div {
-  text-align: left;
-  margin-bottom: 80px;
-}
-
-#subsection-supercharge {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 140px;
-}
-
-#subsection-supercharge>div {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-#img-access {
-  height: 475px;
-  width: 820px;
-  display: block;
-  background: url("../images/image-devices.png") no-repeat;
-  background-size: 810px;
-  margin-top: 80px;
-  margin-bottom: 150px;
-}
-
-#companies {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  margin-bottom: 150px;
-}
-
-#companies>img {
-  display: block;
-  margin: auto 35px auto 35px;
-}
-
 footer {
   width: inherit;
   height: 150px;
@@ -402,15 +324,6 @@ footer {
 
   #subsection-supercharge>div {
     margin: 20px auto 20px auto;
-  }
-
-  #companies {
-    flex-direction: column;
-    margin-bottom: 150px;
-  }
-
-  #companies>img {
-    margin: 30px auto 30px auto;
   }
 
   footer {
