@@ -13,6 +13,7 @@
     margin-top: 80px;
     padding: 68px 0px 0px 830px;
     background: url('../assets/images/image-computer.png') -30px 50%/752px no-repeat;
+    text-align: left;
 }
 
 #keepTrack-content *{
@@ -45,6 +46,7 @@
         align-items: center;
         padding: 294px 0px 0px;
         background: url('../assets/images/image-computer.png') top/312px no-repeat;
+        text-align: center;
     }
     
     #keepTrack-content *{
