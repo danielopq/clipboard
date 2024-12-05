@@ -78,10 +78,9 @@ p {
   border-left: none;
   border-right: none;
   border-bottom-width: 3px;
-  font: 400 18px/30px 'BaiJamjuree-Regular';
+  font: 600 18px/30px 'BaiJamjuree-SemiBold';
   letter-spacing: 0.5px;
   color: white;
-  cursor: pointer;
 }
 
 .bt-ios {
