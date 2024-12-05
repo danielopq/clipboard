@@ -88,13 +88,13 @@ p {
 .bt-ios {
   background-color: hsl(171, 66%, 44%);
   border-bottom-color: hsl(171, 66%, 44%);
-  box-shadow: 0px 5px 25px -5px rgba(137, 229, 199, 0.5);
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5);
 }
 
 .bt-mac {
   background-color: hsl(233, 100%, 69%);
   border-bottom-color: hsl(233, 100%, 69%);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988);
+  box-shadow: 0px 10px 20px 0px rgba(159,159,159,0.5);
 }
 
 @media(hover:hover) {
@@ -137,12 +137,12 @@ button {
 @media screen and (max-width:767px) {
 
   h1 {
-    font: 600 32px/1 'BaiJamjuree-SemiBold';
+    font: 600 32px/40px 'BaiJamjuree-SemiBold';
     letter-spacing: -0.52px;
   }
 
   h2 {
-    font: 600 28px/1 'BaiJamjuree-SemiBold';
+    font: 600 28px/35px 'BaiJamjuree-SemiBold';
     letter-spacing: -0.39px;
   }
 

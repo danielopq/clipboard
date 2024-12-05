@@ -11,3 +11,20 @@
     margin-top: 19px;
 }
 
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {
+    #access{
+        width: inherit; 
+        height: 410px;
+        padding: 0px 32px;
+        margin-top: 186px;
+        background: url('../assets/images/image-devices.png') bottom/311px no-repeat;
+    }
+    
+    #access p{
+        width: auto;
+        margin-top: 16px;
+    }
+}
+

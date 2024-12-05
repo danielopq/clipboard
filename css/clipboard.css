@@ -13,3 +13,23 @@
     display: inline-flex;
     justify-content: space-between;
 }
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {
+    #clipboard{
+        width: inherit;
+        margin-top: 150px;
+        text-align: center;
+    }
+    #clipboard p{
+        width: 730px;
+        margin: 19px 0px 48px;
+    }
+    
+    #clipboard div{
+        width: 470px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+}

@@ -1,11 +1,10 @@
-#keepTrack h2{
+#keepTrack{
     text-align: center;
 }
 
 #keepTrack-mainText{
     width: 730px;
     margin-top: 19px;
-    text-align: center;
 }
 
 #keepTrack-content{
@@ -22,4 +21,37 @@
 
 #keepTrack-content p{
     margin: 8px 0px 56px; 
+}
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {
+    #keepTrack{
+        width: 375px;
+        padding: 0px 32px;
+    }
+
+    #keepTrack-mainText{
+        width: auto;
+        margin-top: 16px;
+    }
+    
+    #keepTrack-content{
+        width: inherit;
+        height: 692px;
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 294px 0px 0px;
+        background: url('../assets/images/image-computer.png') top/312px no-repeat;
+    }
+    
+    #keepTrack-content *{
+        width: 309px;
+    }
+    
+    #keepTrack-content p{
+        margin: 10px 0px 48px; 
+    }
 }
