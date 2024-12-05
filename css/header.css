@@ -39,10 +39,10 @@ header div{
 
 @media screen and (max-width:767px) {
     header{
-        width: 375px;
+        width: 100vw;
         height: auto;
         padding-top: 123px;
-        background: url('../assets/images/bg-header-mobile.png') top/375px no-repeat; 
+        background: url('../assets/images/bg-header-mobile.png') top/100vw no-repeat; 
     }
 
     #logo-header{
