@@ -1,14 +1,15 @@
-#clipboard{
+#clipboard {
     width: inherit;
     margin-top: 150px;
     text-align: center;
 }
-#clipboard p{
+
+#clipboard p {
     width: 730px;
     margin: 19px 0px 48px;
 }
 
-#clipboard div{
+#clipboard div {
     width: 470px;
     display: inline-flex;
     justify-content: space-between;
@@ -17,19 +18,22 @@
 /*############################## MOBILE VERSION ##############################*/
 
 @media screen and (max-width:767px) {
-    #clipboard{
+    #clipboard {
         width: inherit;
-        margin-top: 150px;
-        text-align: center;
+        padding: 0px 32px;
+        margin-top: 170px;
     }
-    #clipboard p{
-        width: 730px;
-        margin: 19px 0px 48px;
+
+    #clipboard p {
+        width: auto;
+        margin: 16px 0px 46px;
     }
-    
-    #clipboard div{
-        width: 470px;
-        display: inline-flex;
+
+    #clipboard div {
+        width: 311px;
+        height: 136px;
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
 }
