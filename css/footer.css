@@ -10,9 +10,9 @@ footer {
 }
 
 #footer-links {
-   width: 635px;
+   width: 540px;
    height: 72px;
-   margin: 39px 165px 0px 0px;
+   margin: 39px 260px 0px 0px;
    display: inline-flex;
    justify-content: space-between;
 }

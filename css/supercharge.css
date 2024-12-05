@@ -29,15 +29,15 @@
 }
 
 #createBlacklist{
-    background: url('../assets/images/icon-blacklist.svg') top/44px no-repeat;
+    background: url('../assets/images/icon-blacklist.svg') 50% 0px/44px no-repeat;
 }
 
 #plainTextSnippet{
-    background: url('../assets/images/icon-text.svg') top/36px no-repeat;
+    background: url('../assets/images/icon-text.svg') 50% 4px/36px no-repeat;
 }
 
 #sneakPreview{
-    background: url('../assets/images/icon-preview.svg') top/50px no-repeat;
+    background: url('../assets/images/icon-preview.svg') 50% 4px/50px no-repeat;
 }
 
 #customers{
