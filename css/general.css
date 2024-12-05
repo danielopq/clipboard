@@ -28,7 +28,9 @@ body {
   justify-content: flex-start;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   margin: 0px;
   padding: 0px;
   color: #4C545C;
@@ -126,6 +128,41 @@ section {
   justify-content: flex-start;
 }
 
-button{
-  cursor:pointer;
+button {
+  cursor: pointer;
+}
+
+/*############################## MOBILE VERSION ##############################*/
+
+@media screen and (max-width:767px) {
+
+  h1 {
+    font: 600 32px/1 'BaiJamjuree-SemiBold';
+    letter-spacing: -0.52px;
+  }
+
+  h2 {
+    font: 600 28px/1 'BaiJamjuree-SemiBold';
+    letter-spacing: -0.39px;
+  }
+
+  h3 {
+    font: 600 24px/30px 'BaiJamjuree-SemiBold';
+    letter-spacing: -0.39px;
+  }
+
+  .textLarge,.textMedium,.textSmall {
+    font: 400 16px/26px 'BaiJamjuree-Regular';
+    letter-spacing: 0.12px;
+  }
+
+  .largeButton {
+    width: 311px;
+    height: 56px;
+  }
+
+  main {
+    width: 375px;
+    margin-top: 160px;
+  }
 }
